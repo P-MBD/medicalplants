@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#96e080"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical">
+    <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="62dp"
+        android:src="@drawable/herbs1"
+        android:layout_marginTop="@dimen/margin_25"
+        android:layout_marginBottom="@dimen/margin_5"
+     />
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="30dp"
+       android:layout_alignTop="@+id/img_logo"
+       android:layout_marginTop="@dimen/margin_5"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="10dp"
+       android:layout_toLeftOf="@+id/img_logo"
+       android:orientation="horizontal"
+       android:id="@+id/lay">
+
+       <com.example.medicalplants.customView.PersianTextView
+           android:id="@+id/name"
+           android:textSize="12dp"
+           android:layout_width="match_parent"
+           android:layout_height="25dp"
+           android:layout_alignLeft="@+id/lay"
+           android:layout_below="@+id/lay"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="5dp"
+           android:layout_toLeftOf="@id/img_logo"
+           android:gravity="right"
+           android:text="@string/app_name"
+           android:textColor="@color/black"
+           android:textStyle="bold" />
+   </LinearLayout>
+    <com.example.medicalplants.customView.PersianTextView
+        android:id="@+id/txt_version"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/lay"
+        android:layout_below="@id/lay"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@id/img_logo"
+        android:gravity="right"
+        android:stateListAnimator="@null"
+        android:text="@string/version"
+        android:textAllCaps="false"
+        android:textSize="14sp" />
+
+</RelativeLayout>

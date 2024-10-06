@@ -1,3 +1,32 @@
 <resources>
-    <string name="app_name">medicalplants</string>
+    <string name="app_name">گیاهان دارویی</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_description" >  مشخصات گیاه دارویی </string>
+    <string name="title_medicalPlants" >  نام گیاه دارویی </string>
+
+    <string name="title_ChemicalCompounds" >  ترکیبات شیمیایی </string>
+    <string name="title_Habitat" >  بررسی رویشگاه </string>
+    <string name="title_Agriculture" >  زراعت </string>
+
+    <string name="title_SoilType" >  نوع خاک </string>
+    <string name="title_WaterReq" >  نیاز آبی </string>
+    <string name="title_KodeNeeds" >  نیاز کودی </string>
+    <string name="title_Flowring" >  زمان گلدهی و برداشت محصول </string>
+    <string name="home" >  خانه </string>
+    <string name="user" > کاربر </string>
+    <string name="version" > ورژن 1 </string>
+    <string name="action_settings">Settings</string>
+    <string-array name="more_option">
+        <item>زراعت</item>
+        <item>رویشگاه</item>
+        <item>ترکیبات شیمیایی</item>
+    </string-array>
+    <string name="title_KeepMedicalPlants" > عملیات نگهداری و مراقبت از گیاه </string>
+    <string name="title_Harvesttime" > عملیات نگهداری و مراقبت از گیاه </string>
+    <string name="description_label">توضیحات </string>
+    <string name="plant_image_description">تصویر</string>
+    <string name="detailed_description">توضیحات کامل</string>
+
 </resources>
